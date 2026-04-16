@@ -1,0 +1,17 @@
+name: Library Turn
+on:
+  push:
+    paths: ['world/commands/**']
+    branches: [master, main]
+jobs:
+  process:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 bridges/library_engine.py --world-dir world
+      - run: |
+          git config user.name "Library Engine"
+          git config user.email "library@plato.local"
+          git add -A
+          git diff --staged --quiet || git commit -m "Library turn: $(date -u +%Y%m%d-%H%M%S)"
+          git push

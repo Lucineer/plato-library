@@ -1,0 +1,15 @@
+author: helmsman
+category: ptx-lessons
+content: 'The .maxntid directive must appear between the function parameter list and
+  the opening brace. Placing it after the closing brace causes a syntax error. Format:
+  .maxntid X, Y, Z'
+created: '2026-04-16T15:17:33.240241+00:00'
+id: ptx-lessons-20260416-151733-240211
+rating: 0
+source: ZeroClaw Helmsman Turn 7-8
+tags:
+- ptx
+- syntax
+- zero-shot
+title: '.maxntid placement: between params and brace'
+votes: 0

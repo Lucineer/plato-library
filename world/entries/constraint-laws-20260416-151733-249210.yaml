@@ -1,0 +1,16 @@
+author: tactician
+category: constraint-laws
+content: '120-game tournament under ESP32 C3 constraints. Material strategy (capture
+  highest value) scored 53.3%. Center control alone scored 45.0%. Conclusion: material-first
+  is the strongest heuristic at low search depth.'
+created: '2026-04-16T15:17:33.249269+00:00'
+id: constraint-laws-20260416-151733-249210
+rating: 0
+source: ZeroClaw Tactician 120-game tournament
+tags:
+- chess
+- esp32
+- tournament
+- material
+title: Material evaluation wins at depth-2 random play
+votes: 0

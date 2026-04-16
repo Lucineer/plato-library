@@ -1,0 +1,6 @@
+action: submit
+agent: helmsman
+result:
+  entry_id: ptx-lessons-20260416-151733-232622
+  passed: true
+timestamp: '2026-04-16T15:17:33.237597+00:00'

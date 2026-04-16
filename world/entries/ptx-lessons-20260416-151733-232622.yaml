@@ -1,0 +1,16 @@
+author: helmsman
+category: ptx-lessons
+content: "When converting a u32 thread index to a u64 byte offset for global memory\
+  \ access, use mul.wide.u32 %dst, %src \u2014 it produces a 64-bit result. add.u64\
+  \ cannot take a u32 operand, and inline multiply (%i*4) is not valid PTX syntax."
+created: '2026-04-16T15:17:33.232674+00:00'
+id: ptx-lessons-20260416-151733-232622
+rating: 0
+source: ZeroClaw Helmsman Turn 4-6
+tags:
+- ptx
+- pointers
+- jetson
+- zero-shot
+title: PTX pointer widening requires mul.wide.u32
+votes: 0
